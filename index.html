@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO: edit these three if the wording or URL changes -->
+  <title>Polas Ahmed | SEO Specialist for Google and AI Search</title>
+  <meta name="description" content="SEO specialist with 3 years of experience. I help businesses get found on Google and recommended by AI tools like ChatGPT. See my results.">
+  <link rel="canonical" href="https://polasahmed.com/"> <!-- change if this page lives at another URL -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Polas Ahmed | SEO Specialist for Google and AI Search">
+  <meta property="og:description" content="I get businesses found on Google and recommended by AI. See the results.">
+  <meta property="og:url" content="https://polasahmed.com/">
+  <!-- Add a 1200x630 image for link previews: <meta property="og:image" content="https://polasahmed.com/og.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b6b4d">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b6b4d'/%3E%3Ctext x='16' y='23' font-size='19' font-weight='700' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3EP%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400..700&display=swap" rel="stylesheet">
+
+  <!-- Structured data. Add "sameAs": ["your LinkedIn URL"] once you have the final links. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Polas Ahmed",
+    "jobTitle": "SEO Specialist",
+    "url": "https://polasahmed.com/",
+    "description": "SEO specialist with 3 years of experience helping businesses get found on Google and recommended by AI tools.",
+    "knowsAbout": ["Search engine optimization", "AI search visibility", "Local SEO", "Technical SEO"]
+  }
+  </script>
+
+  <style>
+    /* ---------- Tokens ---------- */
+    :root {
+      --paper: #ffffff;
+      --wash: #f3f5f7;
+      --ink: #12171f;
+      --muted: #556070;
+      --line: #dde2e8;
+      --green: #0b6b4d;        /* the only accent: green = growth, and it marks every action */
+      --green-dark: #095a40;
+      --green-tint: #e3f3ec;
+
+      --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --font-body: "Figtree", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+      --maxw: 1120px;
+      color-scheme: light;
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.025em; margin: 0; text-wrap: balance; }
+    p { margin: 0; }
+    ul, ol { margin: 0; padding: 0; list-style: none; }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    :focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
+
+    .wrap { width: min(100% - 2.5rem, var(--maxw)); margin-inline: auto; }
+    .skip {
+      position: absolute; left: 1rem; top: -4rem; z-index: 100;
+      background: var(--ink); color: #fff; padding: .6rem 1rem; border-radius: 8px; text-decoration: none;
+    }
+    .skip:focus { top: 1rem; }
+
+    /* ---------- Buttons ---------- */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 52px; padding: 0 1.6rem;
+      border: 2px solid transparent; border-radius: 10px;
+      font: 600 1.0625rem/1 var(--font-body); text-decoration: none; white-space: nowrap;
+      transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+    }
+    .btn--primary { background: var(--green); color: #fff; }
+    .btn--primary:hover { background: var(--green-dark); }
+    .btn--ghost { border-color: var(--line); color: var(--ink); background: var(--paper); }
+    .btn--ghost:hover { border-color: var(--ink); }
+    .btn--sm { min-height: 42px; padding: 0 1.15rem; font-size: .975rem; }
+
+    .textlink { font-weight: 600; color: var(--green); text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+    .textlink:hover { color: var(--green-dark); }
+
+    /* ---------- Header ---------- */
+    .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+    .bar { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; min-height: 68px; }
+    .brand { font: 700 1.25rem/1 var(--font-display); letter-spacing: -0.02em; text-decoration: none; }
+    .nav { display: flex; gap: 2rem; margin-left: auto; margin-right: .5rem; }
+    .nav a { text-decoration: none; font-weight: 500; color: var(--muted); }
+    .nav a:hover { color: var(--ink); }
+
+    /* ---------- Hero ---------- */
+    .hero { padding-block: clamp(3.5rem, 8vw, 6.5rem) clamp(3.5rem, 7vw, 6rem); }
+    .hero__grid { display: grid; gap: 3rem; align-items: center; }
+    .hero h1 { font-size: clamp(2.5rem, 6vw, 4.25rem); line-height: 1.04; font-weight: 800; letter-spacing: -0.035em; max-width: 14em; }
+    .lede { margin-top: 1.5rem; font-size: clamp(1.125rem, 2vw, 1.3rem); color: var(--muted); max-width: 32em; }
+    .actions { display: flex; flex-wrap: wrap; gap: .85rem; margin-top: 2.25rem; }
+    .reassure { display: flex; align-items: center; gap: .6rem; margin-top: 1.25rem; font-size: .975rem; color: var(--muted); }
+    .dot { width: .6rem; height: .6rem; border-radius: 50%; background: var(--green); flex: none; }
+
+    /* Featured result: styled like the metric tiles in Search Console */
+    .proof { background: var(--wash); border: 1px solid var(--line); border-radius: 18px; padding: clamp(1.5rem, 3vw, 2.25rem); }
+    .proof__title { font: 700 1.25rem/1.2 var(--font-display); letter-spacing: -0.02em; }
+    .proof__sub { margin-top: .35rem; color: var(--muted); font-size: 1rem; }
+    .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: .85rem; margin-top: 1.5rem; }
+    .metric { background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--ink); border-radius: 10px; padding: 1rem 1.1rem 1.15rem; }
+    .metric--clicks { border-top-color: var(--green); }
+    .metric dt { font-size: .95rem; color: var(--muted); }
+    .metric dd { margin: .25rem 0 0; font: 800 clamp(2.25rem, 4.4vw, 3rem)/1 var(--font-display); letter-spacing: -0.035em; font-variant-numeric: tabular-nums; }
+    .proof__source { margin-top: 1.1rem; font-size: .9rem; color: var(--muted); }
+    .proof .textlink { display: inline-block; margin-top: 1.1rem; }
+
+    /* ---------- Sections ---------- */
+    .section { padding-block: clamp(4rem, 8vw, 6.5rem); }
+    .section--wash { background: var(--wash); }
+    .section__head { max-width: 40rem; margin-bottom: clamp(2rem, 4vw, 3.25rem); }
+    .section__head h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.1; }
+    .section__head p { margin-top: .9rem; color: var(--muted); font-size: 1.125rem; }
+
+    /* Work */
+    .work-row { display: grid; gap: .9rem 2.5rem; padding-block: 2rem; border-top: 1px solid var(--line); align-items: start; }
+    .work-row:last-child { border-bottom: 1px solid var(--line); }
+    .work-row h3 { font-size: 1.5rem; line-height: 1.15; }
+    .work-row__niche { color: var(--muted); margin-top: .25rem; }
+    .work-row__result { font-weight: 600; }
+    .work-row__result strong { font: 800 1.5rem/1 var(--font-display); letter-spacing: -0.02em; color: var(--green); }
+    .work-row .textlink { display: inline-block; margin-top: .75rem; }
+    .work-row--sample { color: var(--muted); }
+    .work-row--sample h3 { color: var(--muted); }
+    .work-row--sample .work-row__result strong { color: var(--muted); }
+
+    /* Services */
+    .service { display: grid; gap: .9rem 2.5rem; padding-block: 2.25rem; border-top: 1px solid var(--line); }
+    .service:last-child { border-bottom: 1px solid var(--line); }
+    .service h3 { font-size: 1.5rem; line-height: 1.15; }
+    .service__lead { font-size: 1.1875rem; max-width: 34em; }
+    .service ul { margin-top: 1rem; padding-left: 1.2rem; list-style: disc; color: var(--muted); display: grid; gap: .3rem; }
+    .service li::marker { color: var(--green); }
+
+    /* Process (a true sequence, so it is numbered) */
+    .steps { display: grid; gap: 2rem; counter-reset: step; }
+    .step { counter-increment: step; border-top: 3px solid var(--ink); padding-top: 1.1rem; }
+    .step::before { content: counter(step); display: block; font: 800 2.25rem/1 var(--font-display); color: var(--green); margin-bottom: .75rem; }
+    .step h3 { font-size: 1.375rem; }
+    .step p { margin-top: .5rem; color: var(--muted); }
+
+    /* About */
+    .about { display: grid; gap: 2.5rem; align-items: start; }
+    .portrait {
+      width: min(100%, 320px); aspect-ratio: 4 / 5; border-radius: 18px;
+      background: var(--green-tint); color: var(--green);
+      display: grid; place-items: center; font: 800 5rem/1 var(--font-display); letter-spacing: -0.04em;
+      overflow: hidden;
+    }
+    .portrait img { width: 100%; height: 100%; object-fit: cover; }
+    .about h2 { font-size: clamp(1.9rem, 3.6vw, 2.75rem); line-height: 1.1; }
+    .about__text { margin-top: 1.25rem; max-width: 36em; font-size: 1.1875rem; }
+    .about h3 { margin-top: 2.25rem; font-size: 1.25rem; }
+    .promises { margin-top: .9rem; display: grid; gap: .6rem; max-width: 36em; }
+    .promises li { display: flex; gap: .7rem; align-items: baseline; }
+    .promises li::before { content: ""; flex: none; width: .55rem; height: .55rem; border-radius: 50%; background: var(--green); transform: translateY(-.1em); }
+    .toolkit { margin-top: 2rem; color: var(--muted); max-width: 36em; }
+    .toolkit strong { color: var(--ink); }
+
+    /* Closing call to action */
+    .cta { background: var(--green); color: #fff; padding-block: clamp(4rem, 8vw, 6.5rem); }
+    .cta h2 { font-size: clamp(2.1rem, 4.6vw, 3.5rem); line-height: 1.05; font-weight: 800; letter-spacing: -0.035em; max-width: 14em; }
+    .cta p { margin-top: 1.1rem; font-size: 1.25rem; max-width: 30em; color: #dff3ea; }
+    .cta .actions { margin-top: 2rem; }
+    .cta .btn--primary { background: #fff; color: var(--green); }
+    .cta .btn--primary:hover { background: var(--green-tint); }
+    .cta .btn--ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.55); }
+    .cta .btn--ghost:hover { border-color: #fff; }
+    .cta .small { margin-top: 1.5rem; font-size: 1rem; }
+    .cta .small a { color: #fff; font-weight: 600; text-underline-offset: 4px; }
+    .cta :focus-visible { outline-color: #fff; }
+
+    /* Footer */
+    .site-footer { padding-block: 2rem; color: var(--muted); font-size: .95rem; }
+    .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem 2rem; }
+    .site-footer nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .site-footer a { text-decoration: none; }
+    .site-footer a:hover { color: var(--ink); text-decoration: underline; }
+
+    /* ---------- Wider screens ---------- */
+    @media (min-width: 900px) {
+      .hero__grid { grid-template-columns: 1.15fr .85fr; gap: 4.5rem; }
+      .work-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) minmax(0, 1.3fr); }
+      .service { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+      .steps { grid-template-columns: repeat(4, 1fr); gap: 2.5rem; }
+      .about { grid-template-columns: 320px 1fr; gap: 4.5rem; }
+    }
+
+    /* ---------- Small screens ---------- */
+    @media (max-width: 760px) {
+      .nav { display: none; }
+      .brand { margin-right: auto; }
+    }
+    @media (max-width: 520px) {
+      .actions .btn { width: 100%; }
+      .metrics { grid-template-columns: 1fr; }
+      .cta .actions .btn { width: 100%; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top">Polas Ahmed</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Results</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+      </nav>
+      <!-- EDIT: replace with your Calendly / Cal.com link -->
+      <a class="btn btn--primary btn--sm" href="https://calendly.com/your-link">Book a call</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO: one promise, one proof, one action -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div>
+          <h1>I get businesses found on Google and recommended by AI.</h1>
+          <p class="lede">SEO specialist with 3 years of experience. I turn search visibility into calls, bookings, and sales.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="https://calendly.com/your-link">Book a call</a>
+            <a class="btn btn--ghost" href="#work">See my results</a>
+          </div>
+          <p class="reassure"><span class="dot" aria-hidden="true"></span>Open to new roles. I reply within 24 hours.</p>
+        </div>
+
+        <aside class="proof" aria-label="Featured result">
+          <p class="proof__title">IV Better</p>
+          <p class="proof__sub">Organic search results for an IV therapy business</p>
+          <dl class="metrics">
+            <div class="metric metric--clicks">
+              <dt>Clicks from Google</dt>
+              <dd data-count="21.2" data-decimals="1" data-suffix="K">21.2K</dd>
+            </div>
+            <div class="metric">
+              <dt>Impressions</dt>
+              <dd data-count="2.57" data-decimals="2" data-suffix="M">2.57M</dd>
+            </div>
+          </dl>
+          <p class="proof__source">Full year. Source: Google Search Console.</p>
+          <a class="textlink" href="/case-study-iv-better/">Read the case study</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WORK: proof before claims -->
+    <section class="section section--wash" id="work">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Results I can show you</h2>
+          <p>Real projects, with the data source next to every number.</p>
+        </div>
+
+        <ul>
+          <li class="work-row">
+            <div>
+              <h3>IV Better</h3>
+              <p class="work-row__niche">IV therapy business</p>
+            </div>
+            <!-- EDIT: describe in one line what you personally did -->
+            <p>Search strategy and on-page SEO to grow organic traffic from Google.</p>
+            <div>
+              <p class="work-row__result">Full year: <strong>21.2K</strong> clicks from <strong>2.57M</strong> impressions</p>
+              <a class="textlink" href="/case-study-iv-better/">Read the case study</a>
+            </div>
+          </li>
+
+          <!-- REPLACE these two sample rows with your real case studies. Include one about AI search visibility. -->
+          <li class="work-row work-row--sample">
+            <div>
+              <h3>[Client name]</h3>
+              <p class="work-row__niche">[Industry]</p>
+            </div>
+            <p>[One line on what you did]</p>
+            <div>
+              <p class="work-row__result"><strong>[+000%]</strong> [metric] in [time period]</p>
+              <a class="textlink" href="#">Read the case study</a>
+            </div>
+          </li>
+          <li class="work-row work-row--sample">
+            <div>
+              <h3>[Client name]</h3>
+              <p class="work-row__niche">[Industry]</p>
+            </div>
+            <p>[One line on what you did to get them mentioned by AI tools]</p>
+            <div>
+              <p class="work-row__result"><strong>[Result]</strong> [what changed]</p>
+              <a class="textlink" href="#">Read the case study</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--
+      SOCIAL PROOF SLOT (add when you have a real quote from a client or manager):
+      <blockquote> "Quote here." <cite>Name, role, company</cite> </blockquote>
+    -->
+
+    <!-- SERVICES: three items, benefit first -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>How I help</h2>
+          <p>Three things, done well.</p>
+        </div>
+
+        <div>
+          <div class="service">
+            <h3>Google SEO</h3>
+            <div>
+              <p class="service__lead">I find what is holding your site back, fix it, then build pages that bring in customers.</p>
+              <ul>
+                <li>Technical audits and fixes</li>
+                <li>Keyword research and page planning</li>
+                <li>On-page and content optimization</li>
+                <li>Local SEO</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service">
+            <h3>AI search visibility</h3>
+            <div>
+              <p class="service__lead">People now ask ChatGPT, Perplexity, and Google AI Overviews who to trust. I work to make your business part of the answer.</p>
+              <ul>
+                <li>Structured data and clear business information</li>
+                <li>Content written to answer real questions</li>
+                <li>Brand mentions and trusted citations</li>
+                <li>Tracking how AI tools describe your business</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service">
+            <h3>Reporting you can act on</h3>
+            <div>
+              <p class="service__lead">One clear report that shows what worked, what did not, and what happens next.</p>
+              <ul>
+                <li>Clicks, leads, and revenue in one view</li>
+                <li>Plain-English summaries</li>
+                <li>Clear next steps every month</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS: removes the fear of the unknown -->
+    <section class="section section--wash" id="process">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>How I work</h2>
+          <p>A simple process, so you always know what happens next.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <h3>Audit</h3>
+            <p>I review your site, search data, and competitors to find the biggest gaps.</p>
+          </li>
+          <li class="step">
+            <h3>Plan</h3>
+            <p>You get a short priority list: what to fix first, and why.</p>
+          </li>
+          <li class="step">
+            <h3>Build</h3>
+            <p>I fix technical issues, improve pages, and publish content that matches what people search for.</p>
+          </li>
+          <li class="step">
+            <h3>Measure</h3>
+            <p>I track clicks, leads, and AI mentions, then adjust the plan.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT: a face and a voice build trust -->
+    <section class="section" id="about">
+      <div class="wrap about">
+        <!-- EDIT: replace the initials with your photo:
+             <img src="assets/polas.jpg" alt="Portrait of Polas Ahmed" width="640" height="800"> -->
+        <div class="portrait" role="img" aria-label="Photo of Polas Ahmed goes here">PA</div>
+
+        <div>
+          <h2>Hi, I'm Polas.</h2>
+          <p class="about__text">I'm an SEO specialist with three years of hands-on experience getting businesses found on Google. I also know how to get businesses recommended by AI tools. I like clear plans, honest numbers, and results you can check yourself.</p>
+
+          <h3>What you can expect from me</h3>
+          <ul class="promises">
+            <li>Plain-English updates, without jargon</li>
+            <li>Every number comes with its source</li>
+            <li>A reply within 24 hours</li>
+          </ul>
+
+          <!-- EDIT: list only the tools you really use -->
+          <p class="toolkit"><strong>Tools I use:</strong> Google Search Console, Google Analytics 4, Ahrefs, Semrush, Screaming Frog.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING CTA: the last thing people see is the action, plus a free offer -->
+    <section class="cta" id="contact">
+      <div class="wrap">
+        <h2>Hiring for SEO? Let's talk.</h2>
+        <p>Book a 15-minute call. Or send me your website and I'll reply with three quick wins, free.</p>
+        <div class="actions">
+          <a class="btn btn--primary" href="https://calendly.com/your-link">Book a call</a>
+          <!-- EDIT: your real email -->
+          <a class="btn btn--ghost" href="mailto:hello@polasahmed.com?subject=Website%20review%20request">Email me</a>
+        </div>
+        <!-- EDIT: add your real résumé file and LinkedIn URL -->
+        <p class="small"><a href="/resume.pdf">Download my résumé</a> or <a href="https://www.linkedin.com/in/your-profile">find me on LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Polas Ahmed</p>
+      <nav aria-label="Footer">
+        <a href="#work">Results</a>
+        <a href="/case-study-iv-better/">IV Better case study</a>
+        <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+        <a href="mailto:hello@polasahmed.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    /* One moment of motion: the two headline numbers count up the first time they are seen. */
+    (function () {
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var els = document.querySelectorAll('[data-count]');
+      if (reduce || !('IntersectionObserver' in window) || !els.length) return;
+
+      function run(el) {
+        var end = parseFloat(el.getAttribute('data-count'));
+        var dec = parseInt(el.getAttribute('data-decimals') || '0', 10);
+        var suf = el.getAttribute('data-suffix') || '';
+        var dur = 1300, t0 = performance.now();
+        function tick(now) {
+          var p = Math.min((now - t0) / dur, 1);
+          var eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = (end * eased).toFixed(dec) + suf;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+
+      var io = new IntersectionObserver(function (entries, obs) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { run(e.target); obs.unobserve(e.target); }
+        });
+      }, { threshold: 0.6 });
+
+      els.forEach(function (el) {
+        el.textContent = (0).toFixed(parseInt(el.getAttribute('data-decimals') || '0', 10)) + (el.getAttribute('data-suffix') || '');
+        io.observe(el);
+      });
+    })();
+  </script>
+</body>
+</html>
